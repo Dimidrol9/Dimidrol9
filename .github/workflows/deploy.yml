@@ -16,7 +16,8 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
      
           script: |
-            mkdir test 
-            cd test 
-            git clone 
+            
+            mkdir StasivDima 
+            cd StasivDima
+            git clone https://github.com/Dimidrol9/Dimidrol9.git
             echo 'Deployment successful to digital ocean d1' 
