@@ -16,7 +16,7 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
      
           script: |
-            
+            rm StaasivDima
             mkdir StasivDima 
             cd StasivDima
             git clone https://github.com/Dimidrol9/Dimidrol9.git
